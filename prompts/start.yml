@@ -1,0 +1,9 @@
+---
+prompt: You see a door
+choices:
+  - choice:
+    text: Open door
+    result: door.yml
+  - choice:
+    text: Walk away
+    result: win

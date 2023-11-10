@@ -1,0 +1,9 @@
+---
+prompt: The door is locked, but you have a key
+choices: 
+  - choice:
+    text: Use key
+    result: loss
+  - choice:
+    text: kick door
+    result: loss

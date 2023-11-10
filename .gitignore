@@ -1,0 +1,5 @@
+.vscode/
+a.out
+target/*.out
+target/*.o
+target/*.exe
