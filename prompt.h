@@ -1,14 +1,9 @@
-#include <iostream>
 #include <string>
 #include <vector>
-#include <map>
 #include "yaml-cpp/yaml.h"
 
 using std::string;
 using std::vector;
-using std::map;
-using std::cout;
-using std::endl;
 
 class Choice {
 	private:
