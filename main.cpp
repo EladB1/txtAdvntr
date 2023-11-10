@@ -83,6 +83,8 @@ void game_loop() {
 			file = choices[answer-1].getResult();
 		}
 	}
+	if (choices[answer-1].getAdditionalText() != "")
+		cout << choices[answer-1].getAdditionalText() << endl;
 	if (state == WIN)
 		cout << "Congratulations! You win!!!" << endl;
 	else
@@ -92,6 +94,5 @@ void game_loop() {
 int main(int argc, char **argv) {
 	cout << "Hello" << endl;
 	game_loop();
-	//parseYamlFile("prompts/start.yml");
 	return 0;
 }

@@ -7,3 +7,4 @@ choices:
   - choice:
     text: Walk away
     result: win
+    additionalText: "You didn't fall for the Spider's trap."

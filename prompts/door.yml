@@ -4,6 +4,8 @@ choices:
   - choice:
     text: Use key
     result: loss
+    additionalText: You fell for the spider's trap and it ate you
   - choice:
     text: kick door
     result: loss
+    additionalText: You angered a waiting spider which attacked you
